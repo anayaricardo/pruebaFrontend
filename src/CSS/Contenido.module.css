@@ -1,0 +1,36 @@
+.background {
+    width: auto;
+  height: 409px;
+  margin: 55px 20px 28px;
+  padding: 13px 0 0;
+  background-color: #fafafa;
+  display:flex;
+  
+}
+
+.contenidoEnergetico{
+    width: 224px;
+  height: 396px;
+  margin: 0 20px 0 12px;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3;
+  letter-spacing: normal;
+  text-align: right;
+  color: #78246d;
+}
+
+.numeros{
+    width: 67px;
+  height: 396px;
+  margin: 0 12px 0 20px;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  color: #78246d;
+}

@@ -1,0 +1,55 @@
+.background {
+    width: 100vmax;
+    height: 600px;
+  background-image: url("../img/bg-familia-vitalinea.png");
+  background-repeat: no-repeat;
+}
+
+.familia {
+  width: auto;
+  height: 30px;
+  margin: 0px 0px 171px 0;
+  padding: 40px 0px 0px 0px;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #78246d;
+}
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.producto1 {
+    width: 178px;
+  margin: 0px 8px 13px 0;
+}
+
+.producto2 {
+  width: 178px;
+  margin: 0px 8px 13px 0;
+}
+
+.producto3 {
+  width: 178px;
+  margin: 0px 8px 13px 0;
+}
+
+.textoProducto {
+  width: 90px;
+  height: 15px;
+  margin: 4px 66px 4px 42px;
+  font-size: 11px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #78246d;
+}

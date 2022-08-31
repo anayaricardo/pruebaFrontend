@@ -1,0 +1,44 @@
+.background {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 27px 0px 14px 20px;
+}
+
+.vitalinea{
+    width: 79px;
+  height: 30px;
+}
+
+.texto1{
+    width: max-content;
+    height: 15px;
+    margin: 0 auto;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.texto2{
+    width: max-content;
+    height: 68px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
