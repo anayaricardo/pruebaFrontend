@@ -10,7 +10,7 @@ import flecha from "./img/flecha.png";
 
 function App() {
   return (
-    <div>
+    <div className={style.container}>
       <div className={style.background}>
         <Nav />
         <img src={bote} alt="bote fresa" className={style.bote} />
@@ -62,7 +62,7 @@ function App() {
           lácticos.
         </p>
         <Contenido />
-        <Familia />
+        {/* <Familia /> */}
       </body>
       <footer>
         <Footer />

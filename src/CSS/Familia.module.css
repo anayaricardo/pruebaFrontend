@@ -1,6 +1,6 @@
 .background {
-    width: 100vmax;
-    height: 600px;
+    width: auto;
+    min-height: 600px;
   background-image: url("../img/bg-familia-vitalinea.png");
   background-repeat: no-repeat;
 }

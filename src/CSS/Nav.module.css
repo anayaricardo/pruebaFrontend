@@ -1,24 +1,90 @@
-.background {
-  /* border: 1px solid black; */
-  background-color: rgba(255, 255, 255, 0.774);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  padding: 18px 22px 12px 20px;
+/** celular */
+@media (max-width: 40em) {
+  .background {
+    width: auto;
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.774);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .imgLogoVitalinea {
+    width: 129px;
+    height: 50px;
+    padding: 18px 0px 12px 20px;
+  }
 
+  .menuIco {
+    width: 50px;
+    height: 50px;
+    padding: 18px 20px 12px 0px;
+  }
+
+  .titulos {
+    display: none;
+  }
+  .icos {
+    display: none;
+  }
 }
 
-img.imgLlogoVitalinea {
-  width: 129px;
-  height: 50px;
-  object-fit: contain;
+/**desktop*/
+@media (min-width: 40em) {
+  .background {
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.774);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .imgLogoVitalinea {
+    width: 129px;
+    height: 50px;
+    padding: 18px 0px 12px 20px;
+  }
+  .menuIco {
+    display: none;
+  }
+  .titulo {
+    border: 1px solid black;
+    width: 148px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0px 0;
+  }
 
+  .titulos {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 39px 60px 39px 0px;
+  }
+
+  .ico {
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin: 34px 10px 34px 20px;
+  }
+
+  .icos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px 96px 0px 0px;
+  }
 }
 
-img.menuIco {
-  width: 50px;
-  height: 50px;
-
-}
